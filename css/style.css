@@ -1,0 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main_container {
+    margin: 1em auto;
+    text-align: center;
+}
