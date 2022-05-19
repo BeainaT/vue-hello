@@ -3,7 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+background-color: #272525;
+}
 #main_container {
-    margin: 1em auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+}
+img {
+    padding: 2em;
+}
+.title {
+    color: #ffd000;
+    font-size: 2em;
+    font-family: sans-serif;
 }

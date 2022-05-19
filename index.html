@@ -12,7 +12,8 @@
     </head>
     <body>
         <div id="main_container">
-            <h1>{{text}}</h1>
+            <h1 :class="style">{{text}}</h1>
+            <img :src="icon.img" :alt="icon.desc">
         </div>
         <script src="js/main.js"></script>
     </body>
